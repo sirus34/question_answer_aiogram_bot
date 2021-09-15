@@ -6,8 +6,8 @@ from aiogram.contrib.fsm_storage.mongo import MongoStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher.filters.state import StatesGroup, State
+from local_vars import *
 
-API_TOKEN = '1908145507:AAExIglOScegVGHgV2JU-O48PyaM9ovEzY0'
 logging.basicConfig(filename="bot.log", level=logging.INFO)
 # log = logging.getLogger('broadcast')
 
