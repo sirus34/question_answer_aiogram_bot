@@ -39,7 +39,6 @@ async def main_menu(message: types.Message, state: FSMContext):
     keyboard.add(*buttons)
     await message.answer("<u>Главное меню</u>", reply_markup=keyboard)
     user = message.from_user
-    logging.info(f"User come: {user}")
 
 
 @dp.message_handler(Text(equals="Начать опрос", ignore_case=True))
