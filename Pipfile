@@ -8,7 +8,7 @@ aiogram = "*"
 motor = "*"
 ujson = "*"
 uvloop = "*"
-aiohttp = {extras = ["speedups"], version = "*"}
+aiohttp = {extras = ["speedups"], version = ">=3.7.4"}
 
 [dev-packages]
 
